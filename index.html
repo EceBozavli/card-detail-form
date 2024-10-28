@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Detail Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/card.css">
+  <script src="assets/js/card.js" defer></script>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header-card">
+      
+      <div class="back-side">
+        <div class="black-side"></div>
+        <div class="grey-side">
+          <div class="cvc">
+            <p class="cvcText">000</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="front-side">
+        <p class="numberText">0000 0000 0000 0000</p>
+
+        <div class="card-name">
+          <p class="nameText">
+            JANE APPLESEED
+          </p>
+          <p class="dateText">
+            00/00
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+      <div class="input-section">
+
+        <div class="cardHolderName">
+          <p>CARDHOLDER NAME</p>
+          <input type="text" class="inputName" placeholder="e.g. Jane Appleseed">
+        </div>  
+
+        <div class="cardNumber">
+          <p>CARD NUMBER</p>
+          <input type="text" class="inputCardNumber" placeholder="e.g. 1234 5678 9123 0000">
+        </div> 
+
+        <div class="cardExpDateCvc">
+          <p>EXP. DATE (MM/YY)  / CVC</p>
+          <input type="text" class="inputMonthDate" placeholder="MM">
+          <input type="text" class="inputYearDate" placeholder="YY">
+          <input type="text" class="inputCvc" placeholder="e.g. 123">
+        </div>
+        <button class="confirmBtn">Confirm</button>
+        
+      </div>
+        
+        <div class="thankYou">
+          <img src="assets/img/tick.png" alt="tick">
+          <div class="thankYouContent">
+            <h4>THANK YOU!</h4>
+            <p>We’ve added your card details</p>
+          </div>
+          <a href="/" class="continueBtn">Continue</a>
+          
+
+        </div>
+
+
+  </div>
+</body>
+</html>
